@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<style>  
+    div.padded {  
+      padding-top: 0px;  
+      padding-right: 100px;  
+      padding-bottom: 0.25in;  
+      padding-left: 100px;  
+    }  
+  </style> 
+<title>Final Project  |  Camran Kolahdouz-Isfahani, Reid Johnson, Anna Pan</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+<br />
+<h1 align="middle">Simulating a Liquid in 2-Dimensions</h1>
+    <div class="padded">
+        <p>Our goal is to realistically model the motion of liquids over time. We do this by utilizing a grid structure and measuring the incompressible fluid within each square. Our team members are Reid Johnson, Camran Kolahdouz-Isfahani, and Anna Pan.</p>
+
+    <h2 align=""middle>Problem Description</h2>
+        <p>Motions within a liquid are much more complicated to model in principle and in execution than motions of a few solids, as many of the physical principles that govern them are inherently less linear, or at least, less naturally linearizable. It is even more complex to consider their compression, since it is not easy to extract this from a representation of particles or grid levels. We can avoid this by representing only incompressible fluid, and we can use a “grid” structure to account for and represent the amount of fluid in each grid square of our model at any given time step, making liberal use of conservation of mass to assume that the total amount of water in grid squares remains the same, which reduces the dimensionality of our problem significantly. Our overall goal in liquid simulation is to be able to semirealistically model the movements of a “typical” fluid, like water or oil, over time.<p/>
+    <h2 align=""middle>Goals and Deliverables</h2>
+        <p></p>
+        <p></p>
+    <h2 align=""middle>Schedule</h2>
+        <p>Week of Monday April 13th: We will have completed the basics of the grid data structure. This involves picking the data structure, defining constructors, and other helper methods.</p>
+        <p>Week of Monday April 20th: We will have rendered fluid from our grid data structure and any additional shapes needed. We will need to build off of our project 1 rasterizer. </p>
+        <p>Week of Monday April 27th: We will be implementing the basics of the fluid time step update. We will need to implement the Navier–Stokes equations.</p>
+        <p>Week of Monday May 4th: We will polish everything into a final product. We will choose images and make the renderings. We may need to build particular scenes.</p>
+    <h2 align=""middle>Resources</h2>
+        <p>https://escholarship.org/uc/item/7zd8195h#article_main</p>
+        <p>https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations</p>
+        <p>https://www.cs.virginia.edu/~lat7h/blog/posts/503.html</p>
+
+
+</div>
+</body>
+</html>
+
+
+
+
