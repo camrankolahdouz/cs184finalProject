@@ -17,7 +17,7 @@
 <br />
 <h1 align="middle">Simulating a Liquid in 2-Dimensions</h1>
     <div class="padded">
-        <p>Our goal is to realistically model the motion of liquids over time. We do this by utilizing a grid structure and measuring the incompressible fluid within each square. Our team members are Reid Johnson, Camran Kolahdouz-Isfahani, and Anna Pan.</p>
+        <p>Our goal is to realistically model the motion of liquids over time. We do this by utilizing a grid structure and analyzing, measuring, and rendering the amount of incompressible fluid within each square. Our team members are Reid Johnson, Camran Kolahdouz-Isfahani, and Anna Pan.</p>
 
     <h2 align=""middle>Problem Description</h2>
         <p>Motions within a liquid are much more complicated to model in principle and in execution than motions of a few solids, as many of the physical principles that govern them are inherently less linear, or at least, less naturally linearizable. It is even more complex to consider their compression, since it is not easy to extract this from a representation of particles or grid levels. We can avoid this by representing only incompressible fluid, and we can use a “grid” structure to account for and represent the amount of fluid in each grid square of our model at any given time step, making liberal use of conservation of mass to assume that the total amount of water in grid squares remains the same, which reduces the dimensionality of our problem significantly. Our overall goal in liquid simulation is to be able to semirealistically model the movements of a “typical” fluid, like water or oil, over time.<p/>
